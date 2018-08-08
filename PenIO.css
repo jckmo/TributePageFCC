@@ -1,6 +1,12 @@
 img{
   display: grid;
   margin: auto;
+  box-sizing: border-box;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
 }
 header, main, footer, .quote{
   display: grid;
@@ -17,11 +23,13 @@ ul{
 }
 html{
   font-family: Arial;
-  background-color: gray;
+  background-color: lightgray;
 }
 p, .quote{
   margin-right: 100px;
   margin-left: 100px;
-  text-align: justify;
+  text-align: center;
+  display: grid;
+  box-sizing: border-box;
+  padding: 10px 10px 10px 10px;
 }
-
