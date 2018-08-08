@@ -1,0 +1,27 @@
+img{
+  display: grid;
+  margin: auto;
+}
+header, main, footer, .quote{
+  display: grid;
+  justify-items: center;
+}
+p{
+  display: grid;
+  justify-items: center;
+}
+ul{
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 20px;
+}
+html{
+  font-family: Arial;
+  background-color: gray;
+}
+p, .quote{
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: justify;
+}
+
